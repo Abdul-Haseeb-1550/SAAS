@@ -1,0 +1,24 @@
+
+@media (min-width:1024px) {
+    .first-small{
+        grid-template-columns: 1fr 2fr;
+        
+    }  
+}
+.local-slider-simple-css{
+    animation-name: slider;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes slider {
+    0%{
+        background-image: url(images/home3-feature-slider-img1.png);
+    }
+    50%{
+        background-image: url(images/home3-feature-slider-img2.png);
+    }
+    100%{
+        background-image: url(images/home3-feature-slider-img3.png);
+    }
+}
